@@ -1,5 +1,30 @@
-## Next.js App Router Course - Starter
+# Next.js Dashboard — WDD430
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Next.js Learn Tutorial Project
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Tech Stack
+- Next.js 16, React, TypeScript
+- Tailwind CSS, Heroicons
+- PostgreSQL (Neon), NextAuth.js v5
+- bcrypt, Zod
+
+## Features
+- Login Auth
+- Dashboard
+- Invoice CRUD
+- Search page
+- Server Actions, Streaming, Partial Prerendering
+
+## Getting Started
+\`\`\`bash
+pnpm install
+pnpm approve-builds
+# .env file: POSTGRES_URL, AUTH_SECRET etc
+pnpm dev
+\`\`\`
+
+http://localhost:3000/seed DB seed
+
+## Test Login
+- Email: user@nextmail.com
+- Password: 123456
